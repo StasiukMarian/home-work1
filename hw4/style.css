@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: snow;
+}
+.topbar{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    background-color: #eee9e9;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 40px;
+    margin-bottom: 100px;
+}
+.same{
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+}
+.same a {
+    text-decoration: none;
+    color: inherit;
+}
+.sometitle{
+    text-align: center;
+    color: indianred;
+    font-size: 40px;
+}
+.content{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.elements{
+    padding: 10px;
+    margin: 20px;
+    height: 400px;
+    width: 220px;
+    background-color: white;
+    border: 1px solid #dedcdc;
+}
+.pic{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 250px;
+}
+.zagolovok a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+.author{
+    color: darkgray;
+    font-size: 18px;
+}
+.price {
+    color: red;
+    font-size: 22px;
+    font-weight:bold
+}
+
+.created {
+    color: #797777;
+    font-size: 18px;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+}
