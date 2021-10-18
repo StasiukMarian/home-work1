@@ -9,14 +9,14 @@ h1{
 h2{
     text-align: center;
 }
-.firstletter::first-letter{
-    font-size: 35px;
-}
 .about{
     font-size: 20px;
     text-align: justify;
     padding: 15px;
     border-left:5px solid sandybrown;
+}
+.about .first::first-letter{
+    font-size: 35px;
 }
 .father{
     display: flex;
