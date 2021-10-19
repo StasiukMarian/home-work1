@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+.widgets{
+    background-color: grey;
+    height: 240px;
+    text-align: center;
+    color: lawngreen;
+    font-size: 26px;
+}
+.widgets a {
+    color: lawngreen;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+.items{
+    margin: 20px;
+    background-color: #e3c6c6;
+    height: 350px;
+    width: 250px;
+    text-align:center;
+}
+.contact{
+    background-color: grey;
+    height: 240px;
+    text-align: center;
+}
