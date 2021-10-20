@@ -1,0 +1,38 @@
+.top{
+    display: flex;
+    width: 500px;
+    background-color: #d9d9d9;
+    margin: 0 auto;
+    padding: 5px;
+    column-gap: 10px;
+    box-sizing: border-box;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    color: white;
+}
+.first{
+    height: 350px;
+    background-color: #5656ff;
+    width: 250px ;
+
+}
+.second{
+    height: 350px;
+    background-color: #5656ff;
+    width: 250px;
+}
+.third{
+    width: 500px;
+    height: 300px;
+    background-color: #5656ff;
+}
+.items{
+    background-color: #5656ff;
+    width: 33.33%;
+    height: 170px;
+}
