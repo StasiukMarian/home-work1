@@ -1,0 +1,47 @@
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.same {
+    display: flex;
+    width: 500px;
+    height: 100px;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 3px solid black;
+    width: 500px;
+    flex: 1 1 auto;
+    padding: 5px;
+}
+.header{
+    background-color: lightgreen;
+    margin-bottom: 5px;
+}
+.content__container{
+    display: flex;
+}
+.left {
+    margin-right: 5px;
+    height:255px;
+    width: 150px;
+    background-color: pink;
+}
+.right__elements{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    row-gap: 5px;
+    box-sizing: border-box;
+}
+.elements{
+    background-color: lightslategrey;
+    height: 125px;
+}
+.footer{
+    margin-top: 5px;
+    background-color: #d9d9d9;
+}

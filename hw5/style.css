@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #666666;
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 3px solid black;
+    width: 800px;
+    flex: 1 1 auto;
+}
+.header{
+    display: flex;
+    padding: 5px;
+}
+.header__element{
+    height: 150px;
+    width: 790px;
+}
+.content{
+    padding: 5px;
+    display: flex;
+}
+.item1{
+    margin-right:5px ;
+    width: 600px;
+    height: 250px;
+}
+.item2{
+    flex-grow: 1;
+}
