@@ -8,97 +8,159 @@ body{
     align-self: center;
     justify-content: center;
 }
+.wrap{
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+
+}
+.content{
+    flex: 1 1 auto;
+}
 .topbar{
-    padding: 5px;
+    background-color: silver;
+    border: 2px solid black;
+    padding: 10px;
+}
+.container{
+    max-width: 1000px;
+
+}
+.top__container{
     display: flex;
     justify-content: space-between;
-    border: 2px solid black;
-    margin-bottom:5px ;
 }
 .bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #5656ff;
     width: 100px;
     border-radius: 5px;
 }
-.pls{
+.container2{
     display: flex;
     width: 1000px;
+    flex:0 0 auto;
 }
-.left{
+.left__container{
+    width: 120px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: silver;
+    row-gap: 5px;
+    align-items: center;
+}
+.left__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5656ff;
+    border-radius: 5px;
+    width: 100px;
+}
+.center__container{
+    background-color: silver;
+    width: 860px;
     padding: 5px;
     display: flex;
+    border: 2px solid black;
     flex-direction: column;
     row-gap: 5px;
-    width: 110px;
-    border: 2px solid black;
-    margin-right: 5px;
-}
-.items{
-    border-radius: 5px;
-    width: 100px;
-    background-color: #5656ff;
-    min-height: 15px;
-
-}
-.header{
-    display: flex;
-    border: 2px solid black;
-    padding: 5px;
-    width: 860px;
-    flex-wrap: wrap;
-
-}
-.header_element{
-    border-radius: 5px;
-    background-color: #5656ff;
-    width: 860px;
-    height: 135px;
 }
 .center{
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 856px;
+    background-color: #5656ff;
+    height: 140px;
+}
+.center_elements{
+    margin-top:10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
-.block{
-    border-radius: 5px;
-    margin-top: 5px;
-    margin-right: 5px;
-    height: 150px;
-    width: 24.42%;
-    background-color: #5656ff;
-}
-.block2{
-    border-radius: 5px;
-    height:150px;
-    background-color: #5656ff;
-    width: 33%;
-    margin-top: 5px;
-    margin-right: 5px;
-}
-.block3{
+.elements{
     display: flex;
-    margin-top: 5px;
-    width: 67%;
-}
-.bbb {
-    border-radius:5px;
-    width: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-right:4px;
+    width: 24.5%;
+    height: 150px;
     background-color: #5656ff;
+}
+.flexend{
+    display: flex;
+    justify-content: flex-end;
+}
+.next__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    border: 2px solid black;
+    padding: 5px;
+    row-gap: 5px;
+}
+.list{
+    margin-top: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100px;
+    background-color: #5656ff;
+}
+.flexstart{
+    margin:5px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 650px;
+    row-gap: 5px;
+}
+.blocker{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    width: 310px;
+    height: 200px;
+    background-color: #5656ff;
+}
+.button{
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    background-color: #5656ff;
+    margin: 0 auto;
 }
 .footer{
-    display: flex;
-    width: 100%;
-    margin-top: 40px;
-    flex-direction: column;
-    row-gap: 10px;
+    padding: 10px;
 }
-.footer_item{
+.line{
+    border-radius: 5px;
+    margin: 20px ;
+    width: 800px;
+    height: 30px;
     background-color: #5656ff;
-    width: 850px;
-    border-radius: 5px;
 }
-.footer_item2{
+.nextline{
     border-radius: 5px;
+    margin: 0 auto;
     width: 100px;
+    height: 30px;
     background-color: #5656ff;
 }
