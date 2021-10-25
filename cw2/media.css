@@ -1,0 +1,70 @@
+/*for 480px*/
+@media screen and (max-width: 480px){
+    .right__elements{
+        width: 50px;
+    }
+    .left__element{
+        margin-right: 30px;
+        height: 50px;
+    }
+    .head__content__navigation{
+        margin-right: 120px;
+    }
+    .about_elements{
+        height: 100px;
+    }
+    .paddings_main{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .main__description{
+        display: none;
+    }
+    .wrap__main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main__content{
+        min-height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrap__main{
+        height: 500px;
+    }
+    .wrap__circles{
+        flex-direction: column;
+        row-gap: 10px;
+        height: 480px;
+    }
+    .wrap__circles figcaption{
+        display: inline;
+        color: white;
+        font-size: 16px;
+    }
+    .circle{
+        width: 150px;
+        height: 150px;
+    }
+    .wrapper__card1{
+        height: 900px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 10px;
+    }
+    .wrapper__card2{
+        height: 900px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 10px;
+    }
+    .wrapper__bottom{
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+    }
+}
