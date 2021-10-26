@@ -5,7 +5,7 @@
     .header__logo img{
         width: 50px;
     }
-    .wrapper{
+    .wrapper2{
         max-width: 375px;
         padding: 0 10px;
     }
@@ -61,5 +61,12 @@
         background: #FF7400;
         margin-top: 45px;
         margin-left: -45px;
+    }
+    .list_wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 180px;
     }
 }
