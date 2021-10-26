@@ -8,7 +8,7 @@
     background: url("pics/background.png") no-repeat center/cover;
 }
 .wrapper {
-    max-width: 1280px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -17,10 +17,10 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 50px;
+    padding-left: 165px;
+    padding-right: 165px;
 }
-.header__logo{
-    margin-right:120px ;
-}
+
 .header__menu{
     display: flex;
     align-items: center;
@@ -71,7 +71,8 @@
     color:white;
 }
 .header__main{
-    margin-top: 203px;
+    padding-top: 203px;
+    padding-left: 175px;
     align-items: center;
 }
 .header__title h2 {
