@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 100vh;
+    background: url("pics/background.png") no-repeat center/cover;
+}
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+.header__logo{
+    margin-right:120px ;
+}
+.header__menu{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.line {
+    height: 51px;
+    width: 1px;
+    background-color: white;
+    margin-top: -10px;
+}
+.menu__item a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: white;
+}
+.header__contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header__contact .number {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+    color: white;
+}
+.header__contact p {
+    margin-left: 5px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: white;
+}
+.trubka{
+    display: flex;
+}
+.header_button button{
+    border: none;
+    background: #FF7400;
+    width: 157px;
+    height: 47px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color:white;
+}
+.header__main{
+    margin-top: 203px;
+    align-items: center;
+}
+.header__title h2 {
+    font-size: 50px;
+    line-height: 57px;
+    color: #D67E35;
+    margin-left: 24px;
+    font-weight:normal;
+}
+.header__title h1{
+    font-size: 80px;
+    line-height: 92px;
+    color: #D67E35;
+    font-weight:normal;
+}
+.item__p{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+
+}
+.item__p1{
+    width: 61px;
+    height: 2px;
+    background-color:white ;
+}
+.item__p p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.header__title .header_button{
+    margin-left: 156px;
+    margin-top: 21px;
+}
