@@ -9,6 +9,7 @@ h1 {
     font-size: 35px;}
 p {
     font-size: 20px;
+    text-align:justify;
 }
 img {
     margin: 20px;

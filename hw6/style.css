@@ -5,7 +5,7 @@
 
 .header{
     height: 100vh;
-    background: url("pics/background.png") no-repeat center/cover;
+    background: url("../hw6(scnd-try)/pics/background.png") no-repeat center/cover;
 }
 .wrapper2 {
     max-width: 1200px;
