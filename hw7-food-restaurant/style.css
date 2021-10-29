@@ -1,0 +1,131 @@
+.header__wrapper{
+    background: url("pics/background.png") no-repeat center/cover;
+    height: 800px;
+}
+.navbar{
+    min-height: 150px;
+}
+.menu{
+    column-gap: 25px;
+    line-height: 19px;
+}
+.nav__menu__items{
+    font-size: 14px;
+}
+.nav__menu__items a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.nav__line {
+    width: 1px;
+    height: 51px;
+    background-color: #FFFFFF;
+}
+.phone{
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    column-gap: 5px;
+}
+.phone__description{
+color: #FFFFFF;
+    font-size: 14px;
+    line-height: 19px;
+}
+.btn-secondary{
+    font-size: 14px;
+    margin-left: 30px;
+    background-color: #FF7400;
+    border-radius: 0;
+    border: none;
+    width: 157px;
+    height: 47px;
+}
+.main__content{
+    margin-top: 100px;
+}
+.main__content h2{
+    margin-left: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 57px;
+    color: #D67E35;
+}
+.main__content h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 92px;
+    color: #D67E35;
+}
+.main__line{
+    margin-top: 12px;
+    margin-left: 100px;
+    column-gap: 10px;
+}
+.main__line p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.line{
+    width: 61px;
+    height: 2px;
+    background-color: #FFFFFF;
+    margin-top: -15px;
+}
+.main__content .btn-secondary{
+    margin-top: 20px;
+    margin-left: 170px;
+}
+.blocks{
+    background: #E5E5E5;
+}
+.blocks__body{
+    position: relative;
+}
+.wrap__block{
+    width: 100%;
+    background-color: #d9d9d9;
+    column-gap: 31px;
+}
+.main__block{
+    margin-top: -100px;
+    width: 33%;
+    height: 349px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.main__block img{
+    margin-top: 30px;
+}
+.main__block h4 {
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #2C2C2C;
+}
+.main__block p{
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #656363;
+}
+.media__burger{
+    display: none;
+    flex-direction: column;
+    row-gap: 5px;
+    width: 50px;
+}
+
+.media__burger div{
+    width: 30px;
+    height: 2px;
+    background-color: orangered;
+}
